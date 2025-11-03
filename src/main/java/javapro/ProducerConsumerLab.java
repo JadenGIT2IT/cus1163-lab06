@@ -39,8 +39,6 @@ public class ProducerConsumerLab {
         }
     }
 
-    /**
-     * TODO 1: Implement Producer class
       static class Producer implements Runnable {
         private SharedBuffer buffer;
         
@@ -61,9 +59,7 @@ public class ProducerConsumerLab {
         }
     }
     
-    /**
-     * TODO 2: Implement Consumer class
-     */
+    
     static class Consumer implements Runnable {
         private SharedBuffer buffer;
         
